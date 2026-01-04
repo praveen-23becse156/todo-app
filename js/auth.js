@@ -1,0 +1,2 @@
+function register(){localStorage.setItem("username",regUser.value);localStorage.setItem("password",regPass.value);location.href="index.html";}
+function login(){if(loginUser.value===localStorage.getItem("username")&&loginPass.value===localStorage.getItem("password"))location.href="todo.html";else alert("Invalid Login");}
